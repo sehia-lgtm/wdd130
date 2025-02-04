@@ -1,47 +1,43 @@
+:root {
+    --main-bg-color: darkblue;
+    --main-text-color: white;
+    --heading-color: darkblue;
+    --img-border-color: black;
+    --img-box-shadow: gray;
+    --nav-padding: 10px;
+    --nav-link-padding: 20px;
+    --img-padding: 2px;
+    --img-width: 150px;
+    --main-max-width: 840px;
+}
 
 main {
-    max-width: 840px;
+    max-width: var(--main-max-width);
 }
 
 nav {
-    background-color:darkblue;
-    padding: 10px;
+    background-color: var(--main-bg-color);
+    padding: var(--nav-padding);
 }
+
 nav a {
-    color: white;
+    color: var(--main-text-color);
     display: block;
-    padding: 20px;
+    padding: var(--nav-link-padding);
 }
+
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
 }
+
 main img {
-    width: 150px;
+    width: var(--img-width);
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-p {padding: 0;}
-
-aside {
-    width: 20rem;
-    height: auto;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    border: 1px solid var(--img-border-color);
+    padding: var(--img-padding);
+    box-shadow: 0 0 30px var(--img-box-shadow);
 }
 
-aside img {
-    width: 200xp;
-    height: auto;
-}
-
-footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
+p {
+    padding: 0;
 }
