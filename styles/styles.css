@@ -1,7 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    padding: 1rem;
+    background-color:white;
+    color: #000;
+}
 :root {
-    --main-bg-color: darkblue;
+    --main-bg-color: rgb(9, 9, 10);
     --main-text-color: white;
-    --heading-color: darkblue;
+    --heading-color: rgb(2, 2, 37);
     --img-border-color: black;
     --img-box-shadow: gray;
     --nav-padding: 10px;
@@ -14,7 +35,9 @@
 main {
     max-width: var(--main-max-width);
 }
-
+aside {
+    position: relative;
+}
 nav {
     background-color: var(--main-bg-color);
     padding: var(--nav-padding);
@@ -31,6 +54,7 @@ h1 {
 }
 
 main img {
+    float: right;
     width: var(--img-width);
     height: auto;
     border: 1px solid var(--img-border-color);
@@ -38,6 +62,12 @@ main img {
     box-shadow: 0 0 30px var(--img-box-shadow);
 }
 
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
 p {
     padding: 0;
 }
