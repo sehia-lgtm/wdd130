@@ -1,0 +1,35 @@
+/* Define color palette */
+:root {
+    --primary-color: #f2d7ee;
+    --secondary-color: #d3bcc0;
+    --accent1-color: #a5668b;
+    --accent2-color: #69306d;
+}
+
+/* Apply typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--primary-color);
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-color);
+}
+
+/* Additional styles */
+header {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--accent2-color);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}

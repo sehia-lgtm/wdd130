@@ -1,0 +1,154 @@
+
+
+
+:root {
+    --primary-color: #CBFF8C; /* Mindaro */
+    --secondary-color: #E3E36A; /* Straw */
+    --accent1-color: #FEF9FF; /* White Ghost */
+    --accent2-color: #413C58; /* English Violet */
+    --background-color: #f8f9fa; /* Light gray */
+    --text-color: #333; /* Dark gray/black */
+}
+
+.rock-salt-regular {
+    font-family: "Rock Salt", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    max-width: 960px;
+    margin: 0 auto; 
+}
+
+header {
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+}
+
+header img {
+    max-height: 50px; 
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--accent2-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden; 
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 1rem;
+    width: 50%; 
+}
+
+.hero article img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    max-width: 150px;
+}
+
+.hero article p {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section img {
+    width: auto;
+    height: auto;
+    margin: 0.1rem;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+footer {
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.Sociallinks {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.Sociallinks a {
+    margin: 0 0.5rem;
+}
+
+.Sociallinks a img {
+    width: 25px;
+    height: auto;
+}
+
+.Sociallinks a {
+    text-decoration: none; /* Remove underlines from social media links */
+}
