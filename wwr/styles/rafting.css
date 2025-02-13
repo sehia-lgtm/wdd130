@@ -163,6 +163,13 @@ p {
     margin: 0;
 }
 
+.article-image,
+.history-image,
+.adventure-image {
+    width: 100px;
+    height: auto;
+}
+
 section {
     margin-bottom: 2rem;
 }
@@ -194,7 +201,7 @@ footer {
 }
 
 .Sociallinks a img {
-    width: 2rem;
+    width: 25px;
     height: auto
 }
 
