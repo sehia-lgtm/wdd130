@@ -182,6 +182,11 @@ section img {
     flex-wrap: wrap; 
 }
 
+.img-small {
+    width: 100px;
+    height: auto;
+}
+
 footer {
     background-color: var(--accent2-color);
     color: white;
