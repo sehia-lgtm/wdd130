@@ -98,7 +98,7 @@ figcaption {
     margin: 50px 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 0rem;
+    gap: 0;
     justify-items: center;
 }
 .adventures img {
@@ -177,9 +177,8 @@ section {
 section img {
     width: auto;
     height: auto;
-    margin: 0.05rem;
-    display: flex;
-    flex-wrap: wrap; 
+    margin: 0.05rem; /* Small margin between images */
+    display: block; /* Ensures images stack vertically */
 }
 
 .img-small {
@@ -203,11 +202,12 @@ footer {
 
 .Sociallinks a {
     margin: 0 0.5rem;
+    display: inline-block;
 }
 
 .Sociallinks a img {
     width: 25px;
-    height: auto
+    height: auto;
 }
 
 .Sociallinks a {
