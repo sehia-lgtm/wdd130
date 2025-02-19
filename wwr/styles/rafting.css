@@ -409,6 +409,7 @@ footer {
     margin-bottom: 1rem;
 }
 
+
 .call-to-action img {
     max-width: 100%;
     height: auto;
@@ -423,6 +424,18 @@ footer {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0056b3; /* A darker blue - adjust as needed */
+    color: white; 
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease; 
+}
+
+.cta-button:hover {
+    background-color: #004085; 
 }
 
 
