@@ -469,3 +469,59 @@ footer {
 .grid-item h2 {
     color: #0056b3;
 }
+
+                     
+
+
+
+ body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;  /* Two columns */
+            gap: 20px; /* Spacing between grid items */
+        }
+
+        .trip-description {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .trip-description img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 50px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Example color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px; /* Space before the descriptions */
+        }
+
+        /* Responsive adjustments - Stack on smaller screens */
+        @media (max-width: 768px) {
+          .container {
+            grid-template-columns: 1fr; /* Single column */
+          }
+        }
