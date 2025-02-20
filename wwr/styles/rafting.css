@@ -426,7 +426,7 @@ footer {
     margin-top: 1rem;
     display: inline-block;
     padding: 1rem 2rem;
-    background-color: #0056b3; /* A darker blue - adjust as needed */
+    background-color: #0056b3; 
     color: white; 
     text-decoration: none;
     border-radius: 5px;
@@ -467,7 +467,7 @@ footer {
 
 /* Example of more specific styling */
 .grid-item h2 {
-    color: #0056b3;
+    color: #447dba;
 }
 
                      
@@ -512,7 +512,7 @@ footer {
         .cta-button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007bff; /* Example color */
+            background-color: #7eb4ee; /* Example color */
             color: white;
             text-decoration: none;
             border-radius: 5px;
